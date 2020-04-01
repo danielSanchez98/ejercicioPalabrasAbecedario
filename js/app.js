@@ -1,8 +1,8 @@
 const mainCard=document.querySelector('.card#primaria');
 let id=-1;
 let abecedario = ['A','B','C','D','E','F','G','H','I','J','K','L',
-                  'M','N','Ñ','O','P','Q','R','S','T','U','V','X',
-                  'Y','Z'
+                  'M','N','Ñ','O','P','Q','R','S','T','U','V','W',
+                  'X','Y','Z'
                  ];
 
 class PostIt{
