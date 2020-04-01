@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#contenedor{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: minmax(auto,300px);
+    margin: 15px;
+    
+}
+#contenedor>div{
+    margin: 0 10px 15px 0;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+#cont{
+    text-align: right;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-right: 10px;
+
+}
+#formulario{
+    text-align: center;
+    margin: 20px auto;
+}
+
+label[for=texto]{
+    font-size: 20px;
+}
+#texto{
+    display: block;
+    margin: 5px auto;
+    padding: 3px;
+    width: 95%;
+}
+input[type=submit]{
+    font-size: 15px;
+    width: 100%;
+}
+
+.error{
+    background-color: #FBE9E7;
+    border: 1px solid #F4511E;
+    color: #F4511E;
+    margin: 10px;
+    padding: 7px;
+    text-align: center;
+
+}
+.correcto{
+    background-color: rgb(211, 249, 187);
+    border: 1px solid rgb(50, 167, 0);
+    color: rgb(4, 150, 50);
+    margin: 10px;
+    padding: 7px;
+    text-align: center;
+
+}
+#palabra{
+    text-align: center;
+    font-size: 45px;
+}
+#cont-secondary{
+    text-align: right;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-right: 10px;
+
+}
+#palabra-secondary{
+    text-align: center;
+    font-size: 45px;
+}
+#pIngresada{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    padding: 10px;
+}
+
